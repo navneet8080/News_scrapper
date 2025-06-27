@@ -1,0 +1,43 @@
+# === Python Bytecode & Cache ===
+__pycache__/
+*.py[cod]
+*.so
+
+# === Environment Files ===
+.env
+*.env
+myenv30/
+*.venv/
+venv/
+env/
+
+# === Logs & Output ===
+*.log
+logs/
+output/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Excel Archive Files ===
+archive/
+combined/
+*.xlsx
+
+# === Model Files ===
+models/
+*.gguf
+*.safetensors
+*.bin
+*.json
+
+# === VSCode Settings ===
+.vscode/
+
+# === Secrets ===
+ai/config.json
+*secret*
+*key*
+*token*
+
